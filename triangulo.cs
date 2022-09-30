@@ -15,7 +15,6 @@ class Triangulo
 			}
 		}while ((ancho % 2 == 0) || (ancho <= 3));
 		for (int i = ancho; i >= 1; i-=2){
-			
 			for (esp = (ancho - i) / 2; esp > 0; esp--){
 				Console.Write(" ");
 			}
@@ -23,8 +22,7 @@ class Triangulo
 				Console.Write("*");
 			}
 			Console.WriteLine();
-		}
-			
+		}	
 	}
 }
 		
