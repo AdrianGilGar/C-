@@ -22,6 +22,17 @@ class Triangulo
 				Console.Write("*");
 			}
 			Console.WriteLine();
+		}
+		
+		Console.WriteLine("De regalo una piramide no invertida");
+		for (int i = 1; i <= ancho; i+=2){
+			for (esp = (ancho - i) / 2; esp > 0; esp--){
+				Console.Write(" ");
+			}
+			for (int ast = i; ast > 0; ast--){
+				Console.Write("*");
+			}
+			Console.WriteLine();
 		}	
 	}
 }
